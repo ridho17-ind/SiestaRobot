@@ -109,7 +109,7 @@ async def photo(client: pbot, message: Message):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="❌ CLOSE", callback_data="close_e"),
+                        InlineKeyboardButton(text="× CLOSE MENU ×", callback_data="close_e"),
                     ],
                 ]
             ),
