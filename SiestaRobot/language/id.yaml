@@ -4,61 +4,61 @@ language: "Indonesia 🇮🇩"
 authors: "@saint_foire"
 
 # languages
-curr_chat_lang: "Hai. Bahasa Anda saat ini adalah {}, pilih yang Anda inginkan dari tombol di bawah :)"
+curr_chat_lang: "Hai. Bahasa Anda Saat Ini Adalah {}, Pilih Yang Anda Inginkan Dari Tombol Di Bawah 😎"
 set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 
 # PM Text
 pm_start_text: |
-  *Hai sayang, {} ❤️*
-  ✪ Saya adalah robot manajemen tema anime [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  *Hai Sayang, {} ❤️*
+  🚀 Saya Adalah Robot Manajemen Tema Anime/Robot [🙀](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Waktu Operasi Server :* `{}`
-  × `{}` *pengguna, di seluruh* `{}` *obrolan.*
+  × `{}` *Pengguna, Di Seluruh* `{}` *Obrolan.*
   ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
 
   ✪ Tekan /help untuk melihat perintah saya yang tersedia.
    
 group_start_text: |
-  *👋🏻 Hai Sayang, aku Robot Siesta!* 
+  *👋🏻 Hai Sayang, Aku Adalah Flicks Robot!* 
   
-  *Mulai aktif sejak :* `{}`
+  *Mulai Aktif Sejak :* `{}`
 
 pm_about_text: |
-  ✺ Hai Sayang saya *Siesta Robot*, bot manajemen grup yang kuat yang dibuat untuk membantu Anda mengelola grup dengan mudah. ✺
+  😁 Hai Sayang Aku Adalah *Flicks Robot*, Bot Manajemen Grup Yang Kuat Yang Dibuat Untuk Membantu Anda Mengelola Grup Dengan Mudah.
 
-  ✪ Saya dapat membatasi pengguna.
-  ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
-  ✪ Saya memiliki sistem anti-banjir yang canggih.
-  ✪ Saya dapat memperingatkan pengguna hingga mereka mencapai peringatan maksimal, dengan setiap tindakan yang telah ditentukan sebelumnya seperti larangan, bisu, tendangan, dll.
-  ✪ Saya memiliki sistem pencatatan, daftar hitam, dan bahkan balasan yang telah ditentukan sebelumnya untuk kata kunci tertentu.
-  ✪ Saya memeriksa izin admin sebelum menjalankan perintah apa pun dan hal lainnya
+  🚀 Saya dapat membatasi pengguna.
+  🚀 Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
+  🚀 Saya memiliki sistem anti-banjir yang canggih.
+  🚀 Saya dapat memperingatkan pengguna hingga mereka mencapai peringatan maksimal, dengan setiap tindakan yang telah ditentukan sebelumnya seperti larangan, bisu, tendangan, dll.
+  🚀 Saya memiliki sistem pencatatan, daftar hitam, dan bahkan balasan yang telah ditentukan sebelumnya untuk kata kunci tertentu.
+  🚀 Saya memeriksa izin admin sebelum menjalankan perintah apa pun dan hal lainnya
 
   _Siesta dilisensikan di bawah GNU General Public License v3.0_
   Klik tombol di bawah untuk mendapatkan bantuan dasar untuk Robot Siesta.
 pm_about_admin_text: |
   *✺ Ayo buat grupmu sedikit efektif sekarang ✺*
 
-  Selamat, Robot Siesta sekarang siap untuk mengelola grup Anda.
+  Selamat, Flicks Robot sekarang siap untuk mengelola grup Anda.
 
   *Alat Admin*
   Alat Admin Dasar membantu Anda melindungi dan memperkuat grup Anda.
   Anda dapat mencekal anggota, Menendang anggota, Mempromosikan seseorang sebagai admin melalui perintah bot.
 
-  *Salam*
+  *Selamat Datang*
   Mari kita atur pesan selamat datang untuk menyambut pengguna baru yang datang ke grup Anda.
   Send `/setwelcome [message]` untuk menyetel pesan selamat datang!
 pm_about_notes_text: |
-  *✺ Menyiapkan catatan ✺*
+  *✺ Menyiapkan Catatan ✺*
 
   ✪ Anda dapat menyimpan pesan/media/audio atau apa pun sebagai catatan untuk mendapatkan catatan cukup gunakan # di awal kata"
   ✪ Anda juga dapat mengatur tombol untuk catatan dan filter (lihat menu bantuan)
 pm_about_support_text: |
-  *✺ Obrolan dukungan Robot Siesta ✺*
+  *✺ Obrolan Dukungan Flicks Robot ✺*
 
-  Bergabunglah dengan Grup/Saluran Dukungan Saya untuk melihat atau melaporkan masalah di Siesta.
+  Bergabunglah dengan Grup/Saluran Dukungan Saya untuk melihat atau melaporkan masalah di Flicks Robot.
 pm_about_credit_text: |
-  *✺ Credits for Siesta ✺*
+  *✺ Credits For Flicks ✺*
 
   Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat Robot Siesta
 pm_help_text: |
@@ -82,15 +82,15 @@ group_settings_text: "Klik di sini untuk mendapatkan pengaturan obrolan ini, ser
 group_settings_button: "Pengaturan"
 
 # PM Button
-add_bot_to_group_button: "♕ Tambahkan Saya Ke Grup Anda ♕"
-support_chat_link_button: "Mendukung"
+add_bot_to_group_button: "Tambahkan Saya Ke Grup Anda"
+support_chat_link_button: "Dukungan"
 updates_channel_link_button: "Pembaruan"
 notes_button: "Catatan"
-source_button: "Kode sumber"
-help_button: "Mendapatkan bantuan"
+source_button: "Repository"
+help_button: "Bantuan"
 back_button: "Kembali"
-about_button: "Tentang Siesta Robot"
-inline_button: "Mencoba inline!​​"
+about_button: "Tentang Flicks Robot"
+inline_button: "Coba Inline!​"
 
 # MODULES
 admin_help: |
