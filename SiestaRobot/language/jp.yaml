@@ -1,7 +1,7 @@
 # Language name in their native
 language: "Japanese 🇯🇵"
 # name of people(s) who worked on this translation
-authors: "@FurryChemistry"
+authors: "@xflskyzo"
 
 # languages
 curr_chat_lang: "おい。あなたの現在の言語は {}, 下のボタンからお好きなものをお選びください :)"
@@ -10,7 +10,7 @@ set_chat_lang: "素晴らしい、使用 {} これからの言語!"
 # PM Text
 pm_start_text: |
   *ちょっとダーリン, {} ❤️*
-  ✪ 私はアニメをテーマにした管理ロボットです [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  ✪ 私はアニメをテーマにした管理ロボットです [✨](https://telegra.ph/file/ec33dfcad18e9294e0bf4.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *サーバーの稼働時間 :* `{}`
