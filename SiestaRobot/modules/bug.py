@@ -97,13 +97,13 @@ async def bug(_, msg: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                "View Bug", url=f"{msg.link}")
+                                "View Bug", url=f"{msg.link}"),
                             InlineKeyboardButton(
-                                "Get Help", url=f"http://t.me/FlicksMusicBot?start=help")
+                                "Get Help", url=f"http://t.me/FlicksMusicBot?start=help"),
                         ],
                         [
                             InlineKeyboardButton(
-                                "Close", callback_data="close_send_photo")
+                                "Close", callback_data="close_send_photo"),
                         ]
                     ]
                 )
