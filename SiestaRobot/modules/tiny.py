@@ -9,7 +9,7 @@ from SiestaRobot import telethn as tbot
 async def _(event):
     reply = await event.get_reply_message()
     if not (reply and(reply.media)):
-           await event.reply("`Please reply to a sticker`")
+           await event.reply("`Please Reply To A Sticker 😑`")
            return
     kontol = await event.reply("`Processing tiny...`")
     ik = await tbot.download_media(reply)
