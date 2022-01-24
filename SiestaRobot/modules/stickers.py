@@ -82,7 +82,7 @@ def kang(update, context):
         elif msg.reply_to_message.document:
             file_id = msg.reply_to_message.document.file_id
         else:
-            msg.reply_text("Yea, I can't kang that.")
+            msg.reply_text("Yea, I Can't Kang That.")
 
         kang_file = context.bot.get_file(file_id)
         if not is_animated:
@@ -95,7 +95,7 @@ def kang(update, context):
         elif msg.reply_to_message.sticker and msg.reply_to_message.sticker.emoji:
             sticker_emoji = msg.reply_to_message.sticker.emoji
         else:
-            sticker_emoji = "🙂"
+            sticker_emoji = "🙀"
 
         if not is_animated:
             try:
@@ -130,13 +130,13 @@ def kang(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="View Pack", url=f"t.me/addstickers/{packname}"
+                                text="View Your Pack", url=f"t.me/addstickers/{packname}"
                             )
                         ]
                     ]
                 )
                 msg.reply_text(
-                    f"<b>Your sticker has been added!</b>"
+                    f"<b>Your Sticker Has Been Added!</b>"
                     f"\nEmoji Is : {sticker_emoji}",
                     reply_markup=edited_keyboard,
                     parse_mode=ParseMode.HTML,
