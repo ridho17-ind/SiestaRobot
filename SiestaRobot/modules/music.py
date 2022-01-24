@@ -131,7 +131,7 @@ async def ytmusic(client, message: Message):
  
             if duration > LIMIT:
                 await pablo.edit(
-                    f"❌ **durasinya kelamaan gabisa tot:v**"
+                    f"❌ **Durasinya Kelamaan Gabisa:v**"
                 )
                 is_downloading = False
                 return
