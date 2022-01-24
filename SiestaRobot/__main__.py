@@ -83,12 +83,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg"
+SIESTA_IMG = "https://telegra.ph/file/68e24160db1fa4fd13b9d.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """Heya, Glad To Hear You Want To Donate!
+ You Can Support The Project By Contacting @xflskyzo \
+ Supporting Isnt Always Financial! \
+ Those Sho Cannot Provide Monetary Support Are Welcome To Help Us Develop The Bot At ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -769,7 +769,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 945137470:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
+                "I'm Free For Everyone ❤️ If You Wanna Make Me Smile, Just Join"
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -816,7 +816,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Yes Darling ❤️, i am activated!**""",
+                f"""**Yes Darling ❤️, I Am Activated By Lord Skyzo!**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
