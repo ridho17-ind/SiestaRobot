@@ -2,17 +2,17 @@ import random
 from SiestaRobot.events import register
 from SiestaRobot import telethn
 
-APAKAH_STRING = ["Iya", 
+APAKAH_STRING = ["Iya Lah", 
                  "Tidak", 
                  "Mungkin", 
                  "Mungkin Tidak", 
-                 "Bisa jadi", 
+                 "Bisa Jadi", 
                  "Mungkin Tidak",
                  "Tidak Mungkin",
-                 "YNTKTS",
-                 "Pala bapak kau pecah",
-                 "Apa iya?",
-                 "Tanya aja sama mamak kau tu pler"
+                 "YNTKTS NJING",
+                 "Pala Bapak Kau Pecah",
+                 "Apa Iya?",
+                 "Tanya Aja Sama Mamak Kau Tu Pler 😁"
                  ]
 
 
@@ -20,6 +20,6 @@ APAKAH_STRING = ["Iya",
 async def apakah(event):
     quew = event.pattern_match.group(1)
     if not quew:
-        await event.reply('Berikan saya pertanyaan 😐')
+        await event.reply('Berikan Saya Pertanyaan Lah Bodo 😐')
         return
     await event.reply(random.choice(APAKAH_STRING))
