@@ -62,13 +62,13 @@ async def bug(_, msg: Message):
 
     
     if msg.chat.type == "private":
-        await msg.reply_text("❎ <b>This command only works in groups.</b>")
+        await msg.reply_text("❎ <b>This Command Only Works In Groups.</b>")
         return
 
     if user_id == owner_id:
         if bugs:
             await msg.reply_text(
-                "❎ <b>How can be owner bot reporting bug??</b>",
+                "❎ <b>How Can Be Owner Bot Reporting Bug??</b>",
             )
             return
         else:
@@ -79,7 +79,7 @@ async def bug(_, msg: Message):
         if bugs:
             await msg.reply_text(
                 f"<b>Bug Report : {bugs}</b>\n\n"
-                "✅ <b>The bug was successfully reported to the support group!</b>",
+                "✅ <b>The Bug Was Successfully Reported To The Support Group!</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -97,18 +97,20 @@ async def bug(_, msg: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                "➡ View Bug", url=f"{msg.link}")
+                                "View Bug", url=f"{msg.link}")
+                            InlineKeyboardButton(
+                                "Get Help", url=f"http://t.me/FlicksMusicBot?start=help")
                         ],
                         [
                             InlineKeyboardButton(
-                                "❌ Close", callback_data="close_send_photo")
+                                "Close", callback_data="close_send_photo")
                         ]
                     ]
                 )
             )
         else:
             await msg.reply_text(
-                f"❎ <b>No bug to Report!</b>",
+                f"❎ <b>No Bug To Report!</b>",
             )
         
 
@@ -123,7 +125,7 @@ async def close_send_photo(_, CallbackQuery):
     )
     if not is_Admin.can_delete_messages:
         return await CallbackQuery.answer(
-            "You're not allowed to close this.", show_alert=True
+            "⛔ You're Not Allowed To Close This.", show_alert=True
         )
     else:
         await CallbackQuery.message.delete()
