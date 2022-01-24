@@ -213,17 +213,17 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(2088106582)
-DRAGONS.add(945137470)
-DRAGONS.add(5099853374)
+DRAGONS.add(1994127655)
+DRAGONS.add(2063016755)
+DRAGONS.add(1833035701)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(2088106582)
-DEV_USERS.add(945137470)
-DEV_USERS.add(5099853374)
+DEV_USERS.add(1705562427)
+DEV_USERS.add(1670982729)
+DEV_USERS.add(5007789946)
 
 if not SPAMWATCH_API:
     sw = None
-    LOGGER.warning("SpamWatch API key missing! recheck your config")
+    LOGGER.warning("SpamWatch API Key missing! recheck your config")
 else:
     try:
         sw = spamwatch.Client(SPAMWATCH_API)
