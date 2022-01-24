@@ -71,7 +71,7 @@ def markdown_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            "Markdown help",
+                            "Markdown Help",
                             url=f"t.me/{context.bot.username}?start=markdownhelp",
                         )
                     ]
