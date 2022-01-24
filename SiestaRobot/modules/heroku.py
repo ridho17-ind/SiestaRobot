@@ -82,7 +82,7 @@ async def variable(var):
             await s.edit(f"**{variable}**  `successfully changed to`  ->  **{value}**")
         else:
             await s.edit(
-                f"**{variable}**  `successfully added with value`  ->  **{value}**"
+                f"**{variable}**  `Successfully added with value`  ->  **{value}**"
             )
         heroku_var[variable] = value
     elif exe == "del":
@@ -153,15 +153,15 @@ async def dyno_usage(dyno):
     await asyncio.sleep(1.5)
 
     return await die.edit(
-        "❂ **Dyno Usage **:\n\n"
-        f" » Dyno usage for **{HEROKU_APP_NAME}**:\n"
+        "🚀 **Dyno Usage **:\n\n"
+        f" ⚙️ Dyno Usage For **{HEROKU_APP_NAME}**:\n"
         f"      •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
-        "  » Dyno hours quota remaining this month:\n"
+        "  ⚙️ Dyno Hours Quota Remaining This Month:\n"
         f"      •  `{hours}`**h**  `{minutes}`**m**  "
         f"**|**  [`{percentage}`**%**]"
-        f"\n\n  » Dynos heroku {day} days left"
+        f"\n\n  📮 Dynos Heroku {day} Days Left"
     )
 
 
