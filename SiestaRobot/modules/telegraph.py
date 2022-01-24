@@ -52,11 +52,11 @@ async def telegrap(event):
                     os.remove(downloaded_file_name)
                     await Client.send_message(
                         event.chat_id,
-                        "Your telegraph is complete uploaded!",
+                        "**Your Telegraph Link Is Complete Uploaded!**",
                         buttons=[
                             [
                                 types.KeyboardButtonUrl(
-                                    "➡ View Telegraph", "https://telegra.ph{}".format(media_urls[0], (ms + ms_two))
+                                    "View Telegraph Link", "https://telegra.ph{}".format(media_urls[0], (ms + ms_two))
                                 )
                             ]
                         ]
@@ -95,17 +95,17 @@ async def telegrap(event):
             ms = (end - start).seconds
             await Client.send_message(
                     event.chat_id,
-                    "Your telegraph is complete uploaded!",
+                    "**Your Telegraph Link Is Complete Uploaded!**",
                     buttons=[
                         [
                             types.KeyboardButtonUrl(
-                                "➡ View Telegraph", "https://telegra.ph/{}".format(response["path"], ms)
+                                "View Telegraph Link", "https://telegra.ph/{}".format(response["path"], ms)
                             )
                         ]
                     ]
                 )
     else:
-        await event.reply("Reply to a message to get a permanent telegra.ph link.")
+        await event.reply("**🚀 Reply To A Message To Get A Permanent Telegra.ph Link.**")
 
 
 def resize_image(image):
